@@ -14,7 +14,7 @@ import org.springframework.web.filter.ForwardedHeaderFilter;
 
 
 @Configuration
-@OpenAPIDefinition(info = @Info(title = "Blog Application Backend APIs", description = "Project is Developed Prashant Tripathi", version = "v1", license = @License(name = "", url = "https://www.flexidev.co")))
+@OpenAPIDefinition(info = @Info(title = "Blog Application Backend APIs", description = "Project is Developed Badal Singh", version = "v1", license = @License(name = "", url = "https://www.flexidev.co")))
 public class SwaggerConfig  {
 
     public static final String AUTHORIZATION_HEADER = "Authorization";

@@ -52,7 +52,11 @@ public class SecurityConfig {
                 "/api/v1/auth/**",
                 "/api/posts/**",
                 "/api/users/**",
-                "/v3/api-docs"
+                "/v3/api-docs",
+                "/v2/api-docs",
+                "/swagger-resources/**",
+                "/swagger-ui/**",
+                "/webjars/**"
                 // Add other public URLs here
         };
 
